@@ -22,8 +22,8 @@ public class SumThreeIntegerZero {
 			System.out.println("Enter " +(i+1)+"  value :");
 			arr[i]=Utility.inputInterger();
 		}
-		int sum=Utility.sumOfThreeZero(arr,size);
-		System.out.println("sum of three nos"+sum);
+		Utility.sumOfThreeZero(arr,size);
+		//System.out.println("sum of three nos"+sum);
            
            
            
